@@ -1,5 +1,5 @@
 # EXODUS
-Automated Sequential Unit Cell Fitting Routine for Large High-Pressure Diffraction Data Sets.
+Automated Sequential Unit Cell Fitting Routine for Large Powder-Diffraction Data Sets.
 
 EXODUS (Equation-of-state X-ray Observation and Diffraction Unit-cell Solver) is an open-source Python package for the rapid sequential refinement of lattice parameters from large time-resolved X-ray diffraction datasets. EXODUS is designed for fast high-throughput analysis, where conventional Rietveld packages become a workflow bottleneck. The package implements a Pawley-style profile refinement seeded by a third-order Birch-Murnaghan equation of state, supports multi-phase systems with phase-dependent frame ranges, and provides a graphical user interface for interactive inspection. We validate EXODUS against GSAS-II, demonstrating agreement on lattice parameters within experimental uncertainties.
 
