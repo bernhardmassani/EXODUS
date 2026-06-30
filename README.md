@@ -6,3 +6,5 @@ EXODUS (Equation-of-state X-ray Observation and Diffraction Unit-cell Solver) is
 Two versions are currently avilable:
   1) Exodus v0.0.1 is a python script intended to create publication-quality figures in matplotlib
   2) Exodus v0.1.3 is the latest GUI version identical to v0.0.1. Data can saved as *.txt files and plotted in a dedicated plotting program (Origin, QTIplot, etc.)
+
+We have included a test data set (Au and Ag starting at ~9 GPa) to test the program.
