@@ -6,8 +6,17 @@ EXODUS (Equation-of-state X-ray Observation and Diffraction Unit-cell Solver) is
 Dowload Exodus: 
 
 The current release of EXODUS v0.1.3. can be found to the right on this page as a direct download of an .exe (Win) and .app (Mac) file 
-The source code is provided on this page; two versions are currently avilable:
+The source code is provided on this page; three versions are currently avilable:
   1) Exodus v0.0.1 is a python script intended to create publication-quality figures in matplotlib
-  2) Exodus v0.1.3 is the latest GUI version identical to v0.0.1. Data can saved as *.txt files and plotted in a dedicated plotting program (Origin, QTIplot, etc.)
-
+  2) Exodus v0.1.3 is a GUI version identical to v0.0.1. Data can saved as *.txt files and plotted in a dedicated plotting program (Origin, QTIplot, etc.)
+  3) Exodus v0.1.4 is the latest GUI version. Compared to the previous versions, additional features have been added
+        - More control over peak shapes and widths (pseudo-Voigt profile, Caglioti broadening)
+        - Improved speed performance (from 5 fps to 8.8 fps for test data set)
+        - Improved fit statistics (Rw, Rwp, chi2)
+        - Additional plotting window to inspect data (beta)
+        - Additional EoS fitting window (beta)
+        - Easier data inspection (allows to remove patterns, shows frame and 2theata position)
+        - Bug fixes   (i) Tickmarks now update immediately if JCPDS file is modified; in v0.1.3 only after saving
+                      (ii) Rw and Rwp show correct label
+     
 We have also included a test data set (Au and Ag starting at ~9 GPa) to test the program.
