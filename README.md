@@ -10,6 +10,7 @@ The source code is provided on this page; three versions are currently avilable:
   1) Exodus v0.0.1 is a python script intended to create publication-quality figures in matplotlib
   2) Exodus v0.1.3 is a GUI version identical to v0.0.1. Data can saved as *.txt files and plotted in a dedicated plotting program (Origin, QTIplot, etc.)
   3) Exodus v0.1.4 is the latest GUI version. Compared to the previous versions, additional features have been added
+        - Hotfix v0.1.4b. The uncertainties from inaccessible Jacobians have been fixed to 0.  
         - More control over peak shapes and widths (pseudo-Voigt profile, Caglioti broadening)
         - Improved speed performance (from 5 fps to 8.8 fps for test data set)
         - Improved fit statistics (Rw, Rwp, chi2)
